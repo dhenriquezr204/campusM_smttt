@@ -64,9 +64,10 @@ h3 {
 	position: static;
 	float: none;
 	display: inline-block;
+	text-decoration: none;
 }
 
-#ix6ote {
+#txt_name {
 	padding: 10px;
 	height: 0;
 	width: 100%;
@@ -74,13 +75,15 @@ h3 {
 	font-size: 13px;
 }
 
-#ibdmpi {
+#txt_description {
 	padding: 10px;
 	width: 100%;
 	font-size: 12px;
 	color: #656565;
+	border: 0 none rgb(101, 101, 101);
+	font-family: Verdana, Geneva, sans-serif;
 	text-align: left;
-	border-bottom-color: #ffffff;
+	text-decoration: none;
 }
 
 .phone_test {
@@ -123,12 +126,6 @@ h3 {
 	position: static;
 }
 
-#inl7n7 {
-	padding: 10px;
-	height: 0;
-	width: 310px;
-}
-
 #i6xuz5 {
 	padding: 10px;
 	width: 310px;
@@ -142,31 +139,12 @@ h3 {
 	display: flex;
 }
 
-.collapsible {
-	background-color: #fff;
-	color: #444;
-	cursor: pointer;
-	padding: 18px;
-	width: 100%;
-	border: none;
-	text-align: left;
-	outline: none;
-	font-size: 18px;
+#txt_description:active {
+	border: 0 none rgb(101, 101, 101);
 }
 
-.collapsible:after {
-	content: '\02795';
-	font-size: 20px;
-	color: rgba(0, 0, 0, 0.54);
-	float: right;
-	margin-left: 5px;
-}
-
-.content {
-	padding: 0 18px;
-	display: none;
-	overflow: hidden;
-	background-color: #fff;
+#txt_description:nth-of-type(2n) {
+	border: none rgb(101, 101, 101);
 }
 
 @media all and (max-width: 641px) {
