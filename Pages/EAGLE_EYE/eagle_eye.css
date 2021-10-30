@@ -1,90 +1,83 @@
-body {
-	background-color: none;
+#hero {
+	color: black;
+	width: 100%;
+	float: left;
+	display: inline;
+	position: static;
 }
 
-body {
-	background-color: none;
-}
-
-body {
-	background-color: none;
-}
-
-body {
-	background-color: none;
-}
-
-body {
-	background-color: none;
-}
-
-body {
-	background-color: rgba(0, 0, 0, 0);
-}
-
-body {
-	background-color: rgba(0, 0, 0, 0);
-}
-
-body {
-	background-color: rgba(0, 0, 0, 0);
-}
-
-.title h1 {
-	text-align: center;
-	font-size: x-large;
-}
-
-#ia6dkf {
+#hero_container {
 	display: block;
-}
-
-#izlf8d {
-	width: 191px;
-	height: 115px;
-	left: 11px;
-	float: none;
-	bottom: 0;
-	right: 0;
-	top: 0;
-	display: inline;
 	position: relative;
-	text-align: left;
+	background-color: #fff;
 }
 
-#iq9ws1 {
-	padding: 10px 0 10px 10px;
-	min-height: auto;
+#link_title {
+	position: absolute;
 	height: auto;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: 0 5px 0 0;
-	float: right;
-	top: 0;
-	font-size: 21px;
-	display: inline;
+	top: 20%;
+	left: 15%;
+	right: 10%;
+	font-size: 5vw;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 4px #000;
+	font-family: sans;
+}
+
+.parent_1 {
+	display: flex;
+	align-items: center;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	height: auto;
+	width: 100%;
+}
+
+.parent_2 {
+	display: flex;
+	align-items: center;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	height: auto;
+	width: 100%;
+}
+
+.child_2 {
+	float: none;
+	width: auto;
+	height: 100%;
+	display: inline-block;
+	position: static;
+	margin: 5px;
+	text-decoration: none;
+}
+
+#child0 {
 	position: relative;
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
 }
 
-#i1drji {
-	display: inline;
+#child1 {
 	position: relative;
+	width: 50%;
+	text-align: center;
 }
 
-#i1drji:active {
-	left: 1px;
+#child2 {
+	position: relative;
+	width: 50%;
+	text-align: center;
 }
 
-#ia6dkf:active {
-	background-color: rgba(0, 0, 0, 0.01);
-}
-
-#wrapper {
-	background-color: none;
-}
-
-#ii6zq5 {
-	padding-top: 5px;
-	padding-bottom: 5px;
+#imgs {
+	width: 100%;
+	height: auto;
+	border: 2px solid #ffd046;
 }
